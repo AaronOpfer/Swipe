@@ -509,7 +509,7 @@ window.Swipe.prototype = {
           if (timeElap > speed) {
 
             elem.style.left = to + 'px';  // callback after this line
-            
+
             // make slides invisible again
             for (index = 0; index < _this.slides.length; index++) {
               if (index !== _this.index) {
