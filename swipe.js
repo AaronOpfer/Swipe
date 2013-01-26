@@ -7,6 +7,7 @@
 */
 
 window.Swipe = function(element, options) {
+  'use strict';
 
   var _this = this;
 
