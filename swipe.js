@@ -401,7 +401,7 @@ window.Swipe.prototype = {
 
     if (from == to) return; // do nothing if already on requested slide
     
-    var speed = (typeof speed === "Undefined") ? this.speed : speed;
+    var speed = (typeof speed === "undefined") ? this.speed : speed;
     
     if (this.browser.transitions) {
       var toStack = Math.abs(from-to) - 1,
